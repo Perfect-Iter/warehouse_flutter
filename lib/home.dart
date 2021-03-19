@@ -56,7 +56,7 @@ class HomePage extends StatelessWidget {
              ),
              Expanded(
                  child: Container(
-                   padding: EdgeInsets.symmetric(hor),
+                   padding: EdgeInsets.symmetric(horizontal: 12.0),
                    width: double.infinity,
                color: kWhiteColor,
                    child: Column(
