@@ -15,7 +15,7 @@ class ListViewContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 250.0,
+      height: 200.0,
       width: 200.0,
       padding: EdgeInsets.symmetric(horizontal: 12.0),
       decoration: BoxDecoration(

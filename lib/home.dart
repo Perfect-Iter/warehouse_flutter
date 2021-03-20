@@ -55,19 +55,70 @@ class HomePage extends StatelessWidget {
                ),
              ),
              Expanded(
-                 child: Container(
-                   padding: EdgeInsets.symmetric(horizontal: 12.0),
-                   width: double.infinity,
-               color: kWhiteColor,
-                   child: Column(
-                     crossAxisAlignment: CrossAxisAlignment.start,
-                     children: [
-                       Text(
-                           'Active Orders',
-                       )
-                     ],
-                   )
-             ))
+                 child: ListView(
+                   children: [
+                     Text(
+                       'ACTIVE ORDERS'
+                     ),
+                     Card(
+                       color: Colors.cyanAccent,
+                       child: ListTile(
+                         title: Text("Steel pipes"),
+                         subtitle: Text("Quantity: 200"),
+                         trailing: Text("Incoming"),
+                       ),
+                     ),
+                     Card(
+                       color: Colors.redAccent,
+                       child: ListTile(
+                         title: Text("Steel pipes"),
+                         subtitle: Text("Quantity: 200"),
+                         trailing: Text("Outgoing"),
+                       ),
+                     ),
+                     Card(
+                       color: Colors.redAccent,
+                       child: ListTile(
+                         title: Text("Steel pipes"),
+                         subtitle: Text("Quantity: 200"),
+                         trailing: Text("Outgoing"),
+                       ),
+                     ),
+                     Card(
+                       color: Colors.cyanAccent,
+                       child: ListTile(
+                         title: Text("Steel pipes"),
+                         subtitle: Text("Quantity: 200"),
+                         trailing: Text("Incoming"),
+                       ),
+                     ),
+                     Card(
+                       color: Colors.cyanAccent,
+                       child: ListTile(
+                         title: Text("Steel pipes"),
+                         subtitle: Text("Quantity: 200"),
+                         trailing: Text("Incoming"),
+                       ),
+                     ),
+                     Card(
+                       color: Colors.redAccent,
+                       child: ListTile(
+                         title: Text("Steel pipes"),
+                         subtitle: Text("Quantity: 200"),
+                         trailing: Text("Outgoing"),
+                       ),
+                     ),
+                     Card(
+                       color: Colors.redAccent,
+                       child: ListTile(
+                         title: Text("Steel pipes"),
+                         subtitle: Text("Quantity: 200"),
+                         trailing: Text("Outgoing"),
+                       ),
+                     ),
+                   ],
+                 )
+             )
 
            ],
          ),
